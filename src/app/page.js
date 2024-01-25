@@ -66,7 +66,7 @@ function Navbar() {
 
           <div className='d-md-none'>
               {/* <i className="bi bi-list btn p-1 rounded-3 mobile-nav-toggle text-light" onClick={() => setIsOpen(true)} style={{ boxShadow: "0px 5px 30px rgba(65, 84, 241, 0.4)", transition: "0.5s", fontWeight: 'bold', fontSize: '15px'}}/> */}
-              <FontAwesomeIcon icon={faList} style={{ color: 'black', margin: '', fontSize: '20px', cursor: 'pointer' }}  onClick={controlIsOpen}/>
+              <FontAwesomeIcon icon={faList} style={{ color: 'white', margin: '', fontSize: '20px', cursor: 'pointer' }}  onClick={controlIsOpen}/>
           </div>
 
           <div className="d-none d-lg-block"><a class="text-light bg-danger px-3 py-1 rounded-5" style={{ textDecoration: 'none', background: 'linear-gradient(180deg, #FF8A00 0%, #FFC200 100%)', cursor: 'pointer', fontFamily: 'Poppins' }} onClick={handlePancakeClick}>Buy Now</a></div>
@@ -565,16 +565,16 @@ function Navbar() {
               }}>ROADMAP</h1>
 
         <div className="container d-flex justify-content-center align-items-center my-5">
-            <div className="container row col-sm-1 col-md-2 col-lg-2 d-flex rounded-4 p-3" style={{background: '#252525', width: '100%'}}>
-              <div className='col-12 col-lg-6 justify-content-center align-items-center p-4 mb-3 rounded-4 bg-white' style={{}}>
+            <div className="container row col-sm-1 col-md-2 col-lg-2 d-flex justify-content-center align-items-center rounded-4 p-3" style={{width: '100%'}}>
+              <div className='col-12 col-lg-5 justify-content-center align-items-center p-4 mb-3 rounded-4 bg-white' style={{height: '300px'}}>
                 <p>Website development</p>
                 <p>Deploy Smart Contract (BNB)</p>
                 <p>Social Media Launch</p>
                 <p>Community AMA</p>
               </div>
-              
-              
-              <div className='col-12 col-lg-6 justify-content-center align-items-center p-4 mb-3 rounded-4 bg-white' style={{}}>
+
+              <div className="d-none d-lg-block col-1"></div>
+              <div className='col-12 col-lg-5 justify-content-center align-items-center p-4 mb-3 rounded-4 bg-white' style={{height: '300px'}}>
                 <p>Marketting Campaign</p>
                 <p>Coingecko Listing</p>
                 <p>Stacking</p>
@@ -583,7 +583,7 @@ function Navbar() {
                 <p>Massive Marketting Campaign</p>
               </div>
 
-              <div className='col-12 col-lg-6 justify-content-center align-items-center p-4 mb-3 rounded-4 bg-white' style={{}}>
+              <div className='col-12 col-lg-5 justify-content-center align-items-center p-4 mb-3 rounded-4 bg-white' style={{height: '300px'}}>
                 <p>Official White Paper Launch</p>
                 <p>Listing on CEX Exchange</p>
                 <p>New RoadMap Release</p>
@@ -593,6 +593,76 @@ function Navbar() {
       </div>
     )
   }
+
+
+  function Tokenomics() {
+
+    return(
+      <div id='tokenomics py-5'>
+        <h1 className="" style={{
+                  textAlign: "center",
+                  // textShadow: "0px 18px 7px rgba(0, 0, 0, 0.70)",
+                  // fontFamily: "Phoenix",
+                  // fontSize: "20px",
+                  fontStyle: "normal",
+                  fontWeight: "400",
+                  //lineHeight: "8vw", /* 112px */
+                  // background: "#FF7A00",
+                  color: "#FF7A00",
+                  backgroundClip: "text",
+                  webkitBackgroundClip: "text",
+                  webkitTextFillColor: "transparent",
+                  fontFamily: 'Sigmar One'
+              }}>TOKENOMICS</h1>
+
+
+        <div className="">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-3 col-12 mb-4 mx-2 rounded-4 p-2 px-3" style={{ background: '#FFF', fontWeight: 'bold', color: '#000', fontFamily: 'Poppins' }}>
+                    <h2 className="pt-1" style={{ marginBottom: '0px', fontSize: '12px', fontFamily: 'Poppins' }}>3%</h2>
+                    <p class="mb-0" style={{ fontFamily: 'Poppins', fontSize: '25px', fontWeight: '800' }}>Liquidity</p>
+                </div>
+
+                <div class="col-md-3 col-12 mb-4 mx-2 rounded-4 p-2 px-3" style={{ background: '#FFF', fontWeight: 'bold', color: '#000' }}>
+                    <h2 className="pt-1" style={{ marginBottom: '0px', fontSize: '12px', fontFamily: 'Poppins' }}>5%</h2>
+                    <p class="mb-0" style={{ fontFamily: 'Poppins', fontSize: '25px', fontWeight: '800' }}>Marketing</p>
+                </div>
+
+                <div class="col-md-3 col-12 mb-4 mx-2 rounded-4 p-2 px-3" style={{ background: '#FFF', fontWeight: 'bold', color: '#000' }}>
+                    {/* <p className="" style={{ marginBottom: '0px', fontSize: '12px', fontFamily: 'Poppins' }}>Initial Burn</p> */}
+                    <h2 class="mb-0 d-md-block d-none" style={{ fontFamily: 'Poppins', fontSize: '25px', fontWeight: 'bold' }}>Total Supply</h2>
+                    <p class="mb-0 d-sm-block d-md-none" style={{ fontFamily: 'Poppins', fontSize: '25px', fontWeight: 'bold' }}>10,000,000,000</p>
+                    <p class="mb-0 d-none d-md-block" style={{ fontFamily: 'Poppins', fontSize: '18px', fontWeight: 'bold' }}>10,000,000,000</p>
+
+                </div>
+            </div>
+        </div>
+
+        {/* <div className="container d-flex justify-content-center align-items-center my-5">
+            <div className="container row col-sm-1 col-md-3 col-lg-3 d-flex rounded-4 p-3" style={{background: '#252525', width: '100%'}}>
+              <div className='col-12 col-md-3 justify-content-center align-items-center p-4 mb-3 rounded-4 bg-white' style={{}}>
+                <p>3%</p>
+                <p>Liquidity</p>
+                
+              </div>
+
+              <div className="d-none d-lg-block p-4"></div>
+              <div className='col-12 col-md-3 justify-content-center align-items-center p-4 mb-3 rounded-4 bg-white' style={{}}>
+                <p>5%</p>
+                <p>Marketing</p>
+              </div>
+
+              <div className='col-12 col-md-3 justify-content-center align-items-center p-4 mb-3 rounded-4 bg-white' style={{}}>
+                <p>Total Supply</p>
+                <p>10,000,000,000</p>
+              </div>
+          </div>
+        </div> */}
+      </div>
+    )
+  }
+
+
 
   function Socials (){
 
@@ -690,7 +760,10 @@ export default function Home() {
       <Body />
       <About />
       <HowToBuy />
+      <Tokenomics />
+      <div className="p-3"></div>
       <RoadMap />
+      
       <Socials />
     </body>
   );
