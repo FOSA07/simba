@@ -162,7 +162,7 @@ function Navbar() {
                         </p> */}
 
                         <div>
-                            <motion.button className='btn rounded-4 py-2 px-5 mb-3' whileHover={{ scale: 1.2 }} style={{background: "#FF7A00", color: 'white', fontWeight: 'bold', fontFamily: 'Space Mono'}} >Buy Now</motion.button>
+                            <motion.button className='btn rounded-4 py-2 px-5 ' whileHover={{ scale: 1.2 }} style={{background: "#FF7A00", color: 'white', fontWeight: 'bold', fontFamily: 'Space Mono'}} >Buy Now</motion.button>
                             <span className='px-2'></span>
                             {/* <span className='py-2'></span> */}
                             <motion.button className='btn rounded-4 py-2 px-5' whileHover={{ scale: 1.2 }} style={{background: "#FF7A00", color: 'white', fontWeight: 'bold', fontFamily: 'Space Mono'}} >Chart</motion.button>
@@ -205,9 +205,9 @@ function Navbar() {
                         
 
                           <div>
-                            <motion.button className='btn rounded-4 py-2 px-5' whileHover={{ scale: 1.2 }} style={{background: "#FF7A00", color: 'white', fontWeight: 'bold', fontFamily: 'Space Mono'}} >Buy Now</motion.button>
+                            <motion.button className='btn rounded-4 py-2 px-5 mb-3' whileHover={{ scale: 1.2 }} style={{background: "#FF7A00", color: 'white', fontWeight: 'bold', fontFamily: 'Space Mono'}} >Buy Now</motion.button>
                             <span className='px-2'></span>
-                            <motion.button className='btn rounded-4 py-2 px-5' whileHover={{ scale: 1.2 }} style={{background: "#FF7A00", color: 'white', fontWeight: 'bold', fontFamily: 'Space Mono'}} >Chart</motion.button>
+                            <motion.button className='btn rounded-4 py-2 px-5 mb-3' whileHover={{ scale: 1.2 }} style={{background: "#FF7A00", color: 'white', fontWeight: 'bold', fontFamily: 'Space Mono'}} >Chart</motion.button>
                           </div>
 
                         {/* <div className='d-block d-md-none'>
@@ -393,7 +393,7 @@ function Navbar() {
         }}>HOW TO BUY</h1>
         <div className="container d-flex justify-content-center align-items-center my-5">
             <div className="container row col-sm-1 col-md-2 col-lg-2 d-flex rounded-4 p-3" style={{background: '#252525', width: '100%'}}>
-              <div className='col-12 col-lg-3 d-lg-none justify-content-center align-items-center p-4 mb-3' style={{position: 'relative', height: '70vw'}}>
+              <div className='col-12 col-lg-3 d-lg-none justify-content-center align-items-center p-4 mb-4' style={{position: 'relative', height: '80vw'}}>
               <Image
                     src={image2}
                     alt="Background Image"
@@ -438,7 +438,7 @@ function Navbar() {
 
         <div className="container d-flex justify-content-center align-items-center my-5">
             <div className="container row col-sm-1 col-md-2 col-lg-2 d-flex rounded-4 p-3" style={{background: '#252525', width: '100%'}}>
-              <div className='col-12 col-lg-3 d-lg-none justify-content-center align-items-center p-4 mb-3' style={{position: 'relative', height: '70vw'}}>
+              <div className='col-12 col-lg-3 d-lg-none justify-content-center align-items-center p-4 mb-4' style={{position: 'relative', height: '80vw'}}>
               <Image
                     src={image3}
                     alt="Background Image"
@@ -482,8 +482,8 @@ function Navbar() {
         </div>
 
         <div className="container d-flex justify-content-center align-items-center my-5">
-            <div className="container row col-sm-1 col-md-2 col-lg-2 d-flex rounded-4 p-3" style={{background: '#252525', width: '100%'}}>
-              <div className='col-12 col-lg-3 d-lg-none justify-content-center align-items-center p-4 mb-3' style={{position: 'relative', height: '70vw'}}>
+            <div className="container row col-sm-1 col-md-2 col-lg-2 d-flex rounded-4 p-3" style={{background: '#252525', width: '80%'}}>
+              <div className='col-12 col-lg-3 d-lg-none justify-content-center align-items-center p-4 mb-4' style={{position: 'relative', height: '100vw'}}>
               <Image
                     src={image4}
                     alt="Background Image"
