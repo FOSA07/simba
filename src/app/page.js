@@ -141,7 +141,6 @@ function Navbar() {
                         <p className="mb-5" style={{
                             color: "#FFF",
                             textAlign: "left",
-                            fontFamily: "Josefin Sans",  
                             fontSize: "17px",
                             fontStyle: "normal",
                             fontWeight: "400",
@@ -197,12 +196,10 @@ function Navbar() {
                         <p className="mb-5" style={{
                             color: "#FFF",
                             textAlign: "center",
-                            fontFamily: "Josefin Sans",
                             fontSize: "20px",
                             fontStyle: "normal",
                             fontWeight: "400",
                             // lineHeight: "110%", /* 33px */
-                            fontFamily: 'Sigmar One'
                         }}>a majestic presence inspired by the  courage 
                         and resilience of Simba from  The Lion King</p>
                         
@@ -284,7 +281,6 @@ function Navbar() {
                         <p style={{
                             color: "#FFF",
                             textAlign: "left",
-                            fontFamily: "Josefin Sans",
                             fontSize: "20px",
                             fontStyle: "normal",
                             fontWeight: "400",
@@ -335,7 +331,6 @@ function Navbar() {
                         <p style={{
                             color: "#FFF",
                             textAlign: "center",
-                            fontFamily: "Josefin Sans",
                             fontSize: "20px",
                             fontStyle: "normal",
                             fontWeight: "400",
@@ -346,7 +341,6 @@ function Navbar() {
                         <p style={{
                             color: "#FFF",
                             textAlign: "center",
-                            fontFamily: "Josefin Sans",
                             fontSize: "20px",
                             fontStyle: "normal",
                             fontWeight: "400",
