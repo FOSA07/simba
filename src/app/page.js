@@ -406,12 +406,22 @@ function Navbar() {
         }}>HOW TO BUY</h1>
         <div className="container d-flex justify-content-center align-items-center my-5">
             <div className="container row col-sm-1 col-md-2 col-lg-2 d-flex rounded-4 p-3" style={{background: '#252525', width: '100%'}}>
-              <div className='col-12 col-md-3 justify-content-center align-items-center p-4' style={{position: 'relative'}}>
+              <div className='col-12 col-lg-3 d-lg-none justify-content-center align-items-center p-4 mb-3' style={{position: 'relative', height: '70vw'}}>
               <Image
                     src={image2}
                     alt="Background Image"
                     layout="fill"
-                    objectFit="cover"
+                    objectFit="fill"
+                    className='rounded-4'
+                    
+                  />
+              </div>
+              <div className='col-12 col-lg-3 d-none d-lg-block justify-content-center align-items-center p-4' style={{position: 'relative'}}>
+              <Image
+                    src={image2}
+                    alt="Background Image"
+                    layout="fill"
+                    objectFit="fill"
                     className='rounded-4'
                     
                   />
@@ -441,12 +451,22 @@ function Navbar() {
 
         <div className="container d-flex justify-content-center align-items-center my-5">
             <div className="container row col-sm-1 col-md-2 col-lg-2 d-flex rounded-4 p-3" style={{background: '#252525', width: '100%'}}>
-              <div className='col-12 col-md-3 justify-content-center align-items-center p-4' style={{position: 'relative'}}>
+              <div className='col-12 col-lg-3 d-lg-none justify-content-center align-items-center p-4 mb-3' style={{position: 'relative', height: '70vw'}}>
               <Image
                     src={image3}
                     alt="Background Image"
                     layout="fill"
-                    objectFit="cover"
+                    objectFit="fill"
+                    className='rounded-4'
+                    
+                  />
+              </div>
+              <div className='col-12 col-lg-3 d-none d-lg-block justify-content-center align-items-center p-4' style={{position: 'relative'}}>
+              <Image
+                    src={image3}
+                    alt="Background Image"
+                    layout="fill"
+                    objectFit="fill"
                     className='rounded-4'
                     
                   />
@@ -476,12 +496,22 @@ function Navbar() {
 
         <div className="container d-flex justify-content-center align-items-center my-5">
             <div className="container row col-sm-1 col-md-2 col-lg-2 d-flex rounded-4 p-3" style={{background: '#252525', width: '100%'}}>
-              <div className='col-12 col-md-3 justify-content-center align-items-center p-4' style={{position: 'relative'}}>
+              <div className='col-12 col-lg-3 d-lg-none justify-content-center align-items-center p-4 mb-3' style={{position: 'relative', height: '70vw'}}>
               <Image
                     src={image4}
                     alt="Background Image"
                     layout="fill"
-                    objectFit="cover"
+                    objectFit="fill"
+                    className='rounded-4'
+                    
+                  />
+              </div>
+              <div className='col-12 col-lg-3 d-none d-lg-block justify-content-center align-items-center p-4' style={{position: 'relative'}}>
+              <Image
+                    src={image4}
+                    alt="Background Image"
+                    layout="fill"
+                    objectFit="fill"
                     className='rounded-4'
                     
                   />
@@ -533,6 +563,33 @@ function Navbar() {
                   webkitTextFillColor: "transparent",
                   fontFamily: 'Sigmar One'
               }}>ROADMAP</h1>
+
+        <div className="container d-flex justify-content-center align-items-center my-5">
+            <div className="container row col-sm-1 col-md-2 col-lg-2 d-flex rounded-4 p-3" style={{background: '#252525', width: '100%'}}>
+              <div className='col-12 col-lg-6 justify-content-center align-items-center p-4 mb-3 rounded-4 bg-white' style={{}}>
+                <p>Website development</p>
+                <p>Deploy Smart Contract (BNB)</p>
+                <p>Social Media Launch</p>
+                <p>Community AMA</p>
+              </div>
+              
+              
+              <div className='col-12 col-lg-6 justify-content-center align-items-center p-4 mb-3 rounded-4 bg-white' style={{}}>
+                <p>Marketting Campaign</p>
+                <p>Coingecko Listing</p>
+                <p>Stacking</p>
+                <p>CMS Listing</p>
+                <p>Trending on all Platforms</p>
+                <p>Massive Marketting Campaign</p>
+              </div>
+
+              <div className='col-12 col-lg-6 justify-content-center align-items-center p-4 mb-3 rounded-4 bg-white' style={{}}>
+                <p>Official White Paper Launch</p>
+                <p>Listing on CEX Exchange</p>
+                <p>New RoadMap Release</p>
+              </div>
+          </div>
+        </div>
       </div>
     )
   }
