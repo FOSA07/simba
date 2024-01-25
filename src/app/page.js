@@ -483,7 +483,7 @@ function Navbar() {
 
         <div className="container d-flex justify-content-center align-items-center my-5">
             <div className="container row col-sm-1 col-md-2 col-lg-2 d-flex rounded-4 p-3" style={{background: '#252525', width: '80%'}}>
-              <div className='col-12 col-lg-3 d-lg-none justify-content-center align-items-center p-4 mb-4' style={{position: 'relative', height: '100vw'}}>
+              <div className='col-12 col-lg-3 d-lg-none justify-content-center align-items-center p-4 mb-4' style={{position: 'relative', height: '80vw'}}>
               <Image
                     src={image4}
                     alt="Background Image"
