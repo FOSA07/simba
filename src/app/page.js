@@ -146,7 +146,6 @@ function Navbar() {
                             fontStyle: "normal",
                             fontWeight: "400",
                             // lineHeight: "110%", /* 33px */
-                            fontFamily: 'Sigmar One'
                         }}>a majestic presence inspired by the  courage 
                             and resilience of Simba from  The Lion King
                         </p>
@@ -164,9 +163,9 @@ function Navbar() {
                         </p> */}
 
                         <div>
-                            <motion.button className='btn rounded-4 py-2 px-5' whileHover={{ scale: 1.2 }} style={{background: "#FF7A00", color: 'white', fontWeight: 'bold', fontFamily: 'Space Mono'}} >Buy Now</motion.button>
+                            <motion.button className='btn rounded-4 py-2 px-5 mb-3' whileHover={{ scale: 1.2 }} style={{background: "#FF7A00", color: 'white', fontWeight: 'bold', fontFamily: 'Space Mono'}} >Buy Now</motion.button>
                             <span className='px-2'></span>
-                            <span className='py-2'></span>
+                            {/* <span className='py-2'></span> */}
                             <motion.button className='btn rounded-4 py-2 px-5' whileHover={{ scale: 1.2 }} style={{background: "#FF7A00", color: 'white', fontWeight: 'bold', fontFamily: 'Space Mono'}} >Chart</motion.button>
                         </div>
                 </div></div>
@@ -269,7 +268,6 @@ function Navbar() {
                             fontStyle: "normal",
                             fontWeight: "400",
                             // lineHeight: "110%", /* 33px */
-                            fontFamily: 'Sigmar One'
                         }}>In the vast savannah of the cryptocurrency jungle, a new force is awakening — Simba Token, a majestic presence inspired by the courage and resilience of Simba from The Lion King. As we embark on this groundbreaking journey, Simba Token symbolizes more than just a digital asset; it embodies the spirit of leadership, community, and unwavering strength.
                         </p>
 
@@ -281,7 +279,6 @@ function Navbar() {
                             fontWeight: "400",
                             // lineHeight: "110%", /* 33px */
                             
-                            fontFamily: 'Sigmar One'
                         }}> Just as Simba rose to claim his rightful place as the king of the Pride Lands, Simba Token is poised to redefine the crypto landscape. Our token is not merely a transactional tool; it's a symbol of empowerment, a call to unite a pride of enthusiasts and investors in a shared vision of financial sovereignty.
                         </p>
                         <p style={{
@@ -293,7 +290,6 @@ function Navbar() {
                             fontWeight: "400",
                             // lineHeight: "110%", /* 33px */
                             
-                            fontFamily: 'Sigmar One'
                         }}>  Simba Token, like its namesake, envisions a future where individuals take control of their financial destinies. The circle of trust we create echoes the Circle of Life, where each participant plays a vital role in the prosperity and growth of the ecosystem.
                         </p>
 
@@ -314,7 +310,7 @@ function Navbar() {
                 <div className="row">
                     <div className="col-md-12 mx-auto d-block justify-content-center align-items-center text-center">
                     <h1 className="" style={{
-                            textAlign: "left",
+                            textAlign: "center",
                             // textShadow: "0px 18px 7px rgba(0, 0, 0, 0.70)",
                             // fontFamily: "Phoenix",
                             // fontSize: "20px",
@@ -335,7 +331,6 @@ function Navbar() {
                             fontStyle: "normal",
                             fontWeight: "400",
                             // lineHeight: "110%", /* 33px */
-                            fontFamily: 'Sigmar One'
                         }}>In the vast savannah of the cryptocurrency jungle, a new force is awakening — Simba Token, a majestic presence inspired by the courage and resilience of Simba from The Lion King. As we embark on this groundbreaking journey, Simba Token symbolizes more than just a digital asset; it embodies the spirit of leadership, community, and unwavering strength.</p>
                         <p style={{
                             color: "#FFF",
@@ -346,7 +341,6 @@ function Navbar() {
                             fontWeight: "400",
                             // lineHeight: "110%", /* 33px */
                             
-                            fontFamily: 'Sigmar One'
                         }}> Just as Simba rose to claim his rightful place as the king of the Pride Lands, Simba Token is poised to redefine the crypto landscape. Our token is not merely a transactional tool; it's a symbol of empowerment, a call to unite a pride of enthusiasts and investors in a shared vision of financial sovereignty.
                         </p>
                         <p style={{
@@ -358,7 +352,6 @@ function Navbar() {
                             fontWeight: "400",
                             // lineHeight: "110%", /* 33px */
                             
-                            fontFamily: 'Sigmar One'
                         }}>  Simba Token, like its namesake, envisions a future where individuals take control of their financial destinies. The circle of trust we create echoes the Circle of Life, where each participant plays a vital role in the prosperity and growth of the ecosystem.
                         </p>
 
@@ -616,7 +609,7 @@ function Navbar() {
               }}>TOKENOMICS</h1>
 
 
-        <div className="">
+        <div className="container p-3">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-md-3 col-12 mb-4 mx-2 rounded-4 p-2 px-3" style={{ background: '#FFF', fontWeight: 'bold', color: '#000', fontFamily: 'Poppins' }}>
                     <h2 className="pt-1" style={{ marginBottom: '0px', fontSize: '12px', fontFamily: 'Poppins' }}>3%</h2>
@@ -754,7 +747,7 @@ function Navbar() {
 
 export default function Home() {
   return (
-    <body className="" style={{background: '#000', fontFamily: 'Sigmar One'}}>
+    <body className="" style={{background: '#000', fontFamily: 'Poppins'}}>
       <Navbar />
       {/* <Hero /> */}
       <Body />
