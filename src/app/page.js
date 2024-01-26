@@ -817,18 +817,18 @@ function Navbar() {
         <div className="container p-3">
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-md-3 col-12 mb-4 mx-2 rounded-4 p-2 px-3" style={{ background: '#FFF', fontWeight: 'bold', color: '#000', fontFamily: 'Poppins' }}>
-                    <h2 className="pt-1" style={{ marginBottom: '0px', fontSize: '12px', fontFamily: 'Poppins' }}>3%</h2>
+                    <h2 className="pt-1" style={{ marginBottom: '0px', fontSize: '25px', fontFamily: 'Poppins' }}>3%</h2>
                     <p class="mb-0" style={{ fontFamily: 'Poppins', fontSize: '25px', fontWeight: '800' }}>Liquidity</p>
                 </div>
 
                 <div class="col-md-3 col-12 mb-4 mx-2 rounded-4 p-2 px-3" style={{ background: '#FFF', fontWeight: 'bold', color: '#000' }}>
-                    <h2 className="pt-1" style={{ marginBottom: '0px', fontSize: '12px', fontFamily: 'Poppins' }}>5%</h2>
+                    <h2 className="pt-1" style={{ marginBottom: '0px', fontSize: '25px', fontFamily: 'Poppins' }}>5%</h2>
                     <p class="mb-0" style={{ fontFamily: 'Poppins', fontSize: '25px', fontWeight: '800' }}>Marketing</p>
                 </div>
 
                 <div class="col-md-3 col-12 mb-4 mx-2 rounded-4 p-2 px-3" style={{ background: '#FFF', fontWeight: 'bold', color: '#000' }}>
                     {/* <p className="" style={{ marginBottom: '0px', fontSize: '12px', fontFamily: 'Poppins' }}>Initial Burn</p> */}
-                    <h2 class="mb-0 d-md-block d-none" style={{ fontFamily: 'Poppins', fontSize: '25px', fontWeight: 'bold' }}>Total Supply</h2>
+                    <p class="mb-0 d-md-block d-block" style={{ fontFamily: 'Poppins', fontSize: '25px', fontWeight: 'normal' }}>Total Supply</p>
                     <p class="mb-0 d-sm-block d-md-none" style={{ fontFamily: 'Poppins', fontSize: '25px', fontWeight: 'bold' }}>10,000,000,000</p>
                     <p class="mb-0 d-none d-md-block" style={{ fontFamily: 'Poppins', fontSize: '18px', fontWeight: 'bold' }}>10,000,000,000</p>
 
